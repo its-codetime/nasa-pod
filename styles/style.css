@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Lato&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  text-align: center;
+  background-color: #caa3a3;
+  font-family: "Caveat Brush", cursive;
+}
+
+body h1 {
+  font-size: 2rem;
+  padding: 0.8em 0;
+}
+
+body > input {
+  color: black;
+  background-color: #c9c4c4;
+  border: 2px solid black;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.content > h2 {
+  font-size: 1.6rem;
+  padding: 1.2em 0;
+}
+
+.content > img {
+  margin: 0 auto;
+}
+
+.content > iframe {
+  margin: 0 auto;
+  width: 100vw;
+  max-width: 50rem;
+  aspect-ratio: 16/9;
+  border: 0;
+}
+
+.content > p {
+  font-size: 1.15rem;
+  line-height: 1.5em;
+  padding: 1.5em;
+  font-family: "Lato", sans-serif;
+}
+
+.content .error {
+  color: red;
+  font-size: 1.2rem;
+  padding: 1em;
+}
+/*# sourceMappingURL=style.css.map */
